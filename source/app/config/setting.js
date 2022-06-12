@@ -2,14 +2,14 @@
  * Basic Setting Variables Define
  */
 export const BaseSetting = {
-  name: 'listar',
-  displayName: 'Listar',
-  appVersion: '1.1.2',
-  domain: 'listar.passionui.com',
-  protocol: 'http',
+  name: 'House Of Mouse Expo App',
+  displayName: 'HouseOfMouseExpoApp',
+  appVersion: '1.0.0',
+  domain: 'houseofmouseexpo.com',
+  protocol: 'https',
   defaultLanguage: 'en',
   defaultDesign: 'basic',
-  designSupport: ['basic', 'real_estate', 'event', 'food'],
+  designSupport: ['basic', 'event'],
   languageSupport: [
     'en',
     'vi',
