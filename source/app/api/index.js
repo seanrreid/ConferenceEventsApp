@@ -37,9 +37,6 @@ export const getWishList = params => {
   return local.getWishList({params});
 };
 
-export const getWishListRealEstate = params => {
-  return local.getWishListRealEstate({params});
-};
 
 export const getWishListEvent = params => {
   return local.getWishListEvent({params});
@@ -53,10 +50,6 @@ export const getHome = params => {
   return local.getHome({params});
 };
 
-export const getHomeRealEstate = params => {
-  return local.getHomeRealEstate({params});
-};
-
 export const getHomeEvent = params => {
   return local.getHomeEvent({params});
 };
@@ -67,10 +60,6 @@ export const getHomeFood = params => {
 
 export const getProductDetail = params => {
   return local.getProductDetail({params});
-};
-
-export const getProductDetailRealEstate = params => {
-  return local.getProductDetailRealEstate({params});
 };
 
 export const getProductDetailEvent = params => {
@@ -99,10 +88,6 @@ export const getListProduct = params => {
 
 export const getListProductEvent = params => {
   return local.getListEvent({params});
-};
-
-export const getListProductRealEstate = params => {
-  return local.getListRealEstate({params});
 };
 
 export const getListProductFood = params => {

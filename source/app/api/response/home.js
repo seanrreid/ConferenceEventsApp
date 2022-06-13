@@ -7,13 +7,7 @@ export const getHome = async ({params}) => {
   return {
     success: true,
     data: {
-      sliders: [
-        Images.event1,
-        Images.automotive1,
-        Images.food1,
-        Images.trip1,
-        Images.realEstate2,
-      ],
+      sliders: [Images.event1, Images.automotive1, Images.trip1],
       categories: [
         {
           color: '#a569bd',

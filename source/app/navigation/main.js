@@ -9,13 +9,9 @@ import {useSelector} from 'react-redux';
 
 /* Bottom Screen */
 import Home from '@screens/Home';
-import HomeRealEstate from '@screens/HomeRealEstate';
 import HomeEvent from '@screens/HomeEvent';
-import HomeFood from '@screens/HomeFood';
 import Wishlist from '@screens/Wishlist';
-import WishlistRealEstate from '@screens/WishlistRealEstate';
 import WishlistEvent from '@screens/WishlistEvent';
-import WishlistFood from '@screens/WishlistFood';
 import Profile from '@screens/Profile';
 import Messenger from '@screens/Messenger';
 
@@ -24,9 +20,7 @@ import ThemeSetting from '@screens/ThemeSetting';
 import Setting from '@screens/Setting';
 import Category from '@screens/Category';
 import List from '@screens/List';
-import ListRealEstate from '@screens/ListRealEstate';
 import ListEvent from '@screens/ListEvent';
-import ListFood from '@screens/ListFood';
 import Review from '@screens/Review';
 import Feedback from '@screens/Feedback';
 import Walkthrough from '@screens/Walkthrough';
@@ -34,9 +28,7 @@ import ChangePassword from '@screens/ChangePassword';
 import ProfileEdit from '@screens/ProfileEdit';
 import ChangeLanguage from '@screens/ChangeLanguage';
 import ProductDetail from '@screens/ProductDetail';
-import ProductDetailRealEsate from '@screens/ProductDetailRealEsate';
 import ProductDetailEvent from '@screens/ProductDetailEvent';
-import ProductDetailFood from '@screens/ProductDetailFood';
 import ContactUs from '@screens/ContactUs';
 import Messages from '@screens/Messages';
 import AboutUs from '@screens/AboutUs';
@@ -53,12 +45,8 @@ export default function Main() {
    */
   const exportProductDetail = value => {
     switch (value) {
-      case 'real_estate':
-        return ProductDetailRealEsate;
       case 'event':
         return ProductDetailEvent;
-      case 'food':
-        return ProductDetailFood;
       default:
         return ProductDetail;
     }
@@ -71,12 +59,8 @@ export default function Main() {
    */
   const exportList = value => {
     switch (value) {
-      case 'real_estate':
-        return ListRealEstate;
       case 'event':
         return ListEvent;
-      case 'food':
-        return ListFood;
       default:
         return List;
     }
@@ -127,12 +111,8 @@ function BottomTabNavigator() {
    */
   const exportHome = value => {
     switch (value) {
-      case 'real_estate':
-        return HomeRealEstate;
       case 'event':
         return HomeEvent;
-      case 'food':
-        return HomeFood;
       default:
         return Home;
     }
@@ -148,12 +128,8 @@ function BottomTabNavigator() {
       return Walkthrough;
     }
     switch (value) {
-      case 'real_estate':
-        return WishlistRealEstate;
       case 'event':
         return WishlistEvent;
-      case 'food':
-        return WishlistFood;
       default:
         return Wishlist;
     }
